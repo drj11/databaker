@@ -1,6 +1,6 @@
 from __future__ import absolute_import, division
-import databaker.bake as bake
-import databaker.constants as constants
+import databaker.bake_classic.bake as bake
+import databaker.bake_classic.constants as constants
 import unittest
 import imp
 import warnings

@@ -1,7 +1,7 @@
 from __future__ import absolute_import, division
 import re
 from databaker.constants import *
-import databaker.bake
+import databaker.bake_classic.bake
 from nose.tools import assert_equal
 
 def per_file(tabs):

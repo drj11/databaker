@@ -1,5 +1,5 @@
 from __future__ import absolute_import, print_function, division
-from databaker.constants import *
+from databaker.bake_classic.constants import *
 print(PARAMS())
 
 def per_file(tableset):

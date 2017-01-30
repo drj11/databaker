@@ -1,7 +1,7 @@
 from __future__ import absolute_import, print_function, division
 import re
-from databaker.constants import *
-import databaker.bake
+from databaker.bake_classic.constants import *
+import databaker.bake_classic.bake
 from nose.tools import assert_equal
 from six.moves import zip
 

@@ -1,7 +1,7 @@
 from __future__ import absolute_import, division
-from databaker.utf8csv import UnicodeWriter, UnicodeReader
+from databaker.bake_classic.utf8csv import UnicodeWriter, UnicodeReader
 import subprocess
-import databaker.sortcsv as sortcsv
+import databaker.bake_classic.sortcsv as sortcsv
 
 def test_csvsorting():
     sample = [["header"],

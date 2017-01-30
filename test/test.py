@@ -1,10 +1,10 @@
 from __future__ import absolute_import, print_function, division
-import databaker.bake as bake
+import databaker.bake_classic.bake as bake
 import unittest
 import warnings
 import imp
-from databaker.utf8csv import UnicodeReader
-from databaker.utils import datematch
+from databaker.bake_classic.utf8csv import UnicodeReader
+from databaker.bake_classic.utils import datematch
 from six.moves import zip
 
 warnings.simplefilter("ignore")

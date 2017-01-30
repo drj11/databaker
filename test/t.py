@@ -1,6 +1,6 @@
 from __future__ import absolute_import, division
-import databaker.bake
-from databaker.constants import *
+import databaker.bake_classic.bake
+from databaker.bake_classic.constants import *
 from nose.tools import assert_equal
 def per_file(tabs):
     return tabs.names
